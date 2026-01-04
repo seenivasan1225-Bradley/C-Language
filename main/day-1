@@ -1,0 +1,26 @@
+--------------------------------BASIC_C-PROGRAMMING_LANGUAGE-------------------------------
+
+<--------------------1.VARIABLE_DECLARATIONS----------------------->
+#include <stdio.h>
+int main()
+{
+    int a=5;
+    float b=2.5;
+    char c='k';
+    printf("int value :%i\n",a);
+    printf("float value :%.2f\n",b);
+    printf("char value :%c\n",c);
+    return 0;
+}
+<--------------------2.swapping_excercise--------------------------->
+ #include <stdio.h>
+int main()
+{
+    int a=10;
+    int b=20;
+    int tem;
+     tem=a;
+        a=b;
+       
+    printf("a=%d,b=%d",a,tem);
+}
